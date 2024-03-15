@@ -44,10 +44,6 @@ sidebar:
 Claudio Zeni\*, Robert Pinsler\*, Daniel Zügner\*, Andrew Fowler\*, Matthew Horton\*, Xiang Fu, Sasha Shysheya, Jonathan Crabbé, Lixin Sun, Jake Smith, Ryota Tomioka, Tian Xie. <br>
 [[paper]](https://arxiv.org/abs/2312.03687)
 
-**MOFDiff: Coarse-grained Diffusion for Metal-Organic Framework Design.** <br>
-Xiang Fu, [Tian Xie], [Andrew Rosen], [Tommi Jaakkola], [Jake Smith]. <br>
-[[paper]](https://arxiv.org/abs/2310.10732)
-
 **Learning Interatomic Potentials at Multiple Scales.** <br>
 Xiang Fu, [Albert Musaelian], [Anders Johansson], [Tommi Jaakkola], [Boris Kozinsky]. <br>
 [[paper]](https://arxiv.org/abs/2310.13756)
@@ -57,6 +53,11 @@ Ryotaro Okabe, Abhijatmedhi Chotrattanapituk, Artittaya Boonkird, Nina Andrejevi
 [[paper]](https://arxiv.org/abs/2301.02197)
 
 # Publications
+
+**MOFDiff: Coarse-grained Diffusion for Metal-Organic Framework Design.** <br>
+Xiang Fu, [Tian Xie], [Andrew Rosen], [Tommi Jaakkola], [Jake Smith]. <br>
+*International Conference on Learning Representations (ICLR), 2024.* <br>
+[[paper]](https://arxiv.org/abs/2310.10732)
 
 **Learning to See Physical Properties with Active Sensing Motor Policies.** <br>
 [Gabriel Margolis], Xiang Fu, [Yandong Ji], [Pulkit Agrawal] <br>
