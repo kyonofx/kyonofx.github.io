@@ -9,7 +9,8 @@ sidebar:
 <h1>ABOUT</h1>
 
 I am a graduate student at MIT CSAIL working with
-<a style="text-decoration:none" href="https://people.csail.mit.edu/tommi/tommi.html">Tommi Jaakkola</a>
+<a style="text-decoration:none" href="https://people.csail.mit.edu/tommi/tommi.html">Tommi Jaakkola</a>,
+<a style="text-decoration:none" href="https://people.csail.mit.edu/pulkitag">Pulkit Agrawal</a>,
 and <a style="text-decoration:none" href="https://mir.g.harvard.edu/people/boris-kozinsky">Boris Kozinsky</a>. 
 I am interested in advancing machine learning capabilities for scientific discovery, emphasizing both scalability and expressivity. 
 My research aims to leverage the multi-scale and multi-modal nature of physical systems, as well as their symmetry properties, to develop powerful and efficient learning models and algorithms.
