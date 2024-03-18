@@ -11,9 +11,9 @@ sidebar:
 I am a graduate student at MIT CSAIL working with
 <a style="text-decoration:none" href="https://people.csail.mit.edu/tommi/tommi.html">Tommi Jaakkola</a>
 and <a style="text-decoration:none" href="https://mir.g.harvard.edu/people/boris-kozinsky">Boris Kozinsky</a>. 
-I am interested in creating machine learning capabilities for scientific discovery, with a focus on scalability and expressivity. 
-My research aims to leverage the multi-scale and multi-modal nature of physical systems, as well as physical symmetries to develop powerful and efficient learning models and algorithms.
-My research combines generative modeling of atomistic structures, and learned simulation to improve our understanding and accelerate the discovery of new materials and molecules.
+I am interested in advancing machine learning capabilities for scientific discovery, emphasizing both scalability and expressivity. 
+My research aims to leverage the multi-scale and multi-modal nature of physical systems, as well as their symmetry properties, to develop powerful and efficient learning models and algorithms.
+My research combines generative modeling of atomistic structures and learned simulation techniques, with the goal of accelerating the design of new materials and molecules with desired properties.
 
 <h1>NEWS</h1>
 
