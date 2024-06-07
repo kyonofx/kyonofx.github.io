@@ -41,7 +41,7 @@ sidebar:
 [Tess Smidt]: https://blondegeek.github.io/
 [Cameron Owen]: https://scholar.google.com/citations?user=uniXyQ0AAAAJ&hl=en
 [Yu Xie]: https://www.microsoft.com/en-us/research/people/yuxie1/
-
+[Blake Duschatko]: https://scholar.google.com/citations?user=wWiwYlsAAAAJ&hl=en
 <!-- <img align="left" margin='13px' width="60" height="60"  style="margin: 0px 20px" src="assets/../../images/dmc_driving.png"> -->
 # Preprints
 
