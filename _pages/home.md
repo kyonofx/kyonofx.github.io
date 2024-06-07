@@ -8,9 +8,9 @@ sidebar:
 
 <h1>ABOUT</h1>
 
-I am a research scientist at [Meta FAIR Chemistry](https://github.com/FAIR-Chem/fairchem). I work at the intersection of machine learning, computational chemistry, and materials science. My research aims to leverage the multi-scale and multi-modal nature of physical systems, as well as their symmetry properties, to develop powerful and scalable learning models and algorithms. My research combines generative modeling of atomistic structures and learned simulation techniques to accelerate the design of new materials and molecules with desired properties. I completed PhD at MIT CSAIL, advised by <a style="text-decoration:none" href="https://people.csail.mit.edu/tommi/tommi.html">Tommi Jaakkola.
+I am a research scientist at [Meta FAIR](https://ai.meta.com/research). I work at the intersection of machine learning, computational chemistry, and materials science. My research aims to leverage the multi-scale and multi-modal nature of physical systems, as well as their symmetry properties, to develop powerful and scalable learning models and algorithms. My research combines generative modeling of atomistic structures and learned simulation techniques to accelerate the design of new materials and molecules with desired properties. I completed my PhD at MIT CSAIL, advised by <a style="text-decoration:none" href="https://people.csail.mit.edu/tommi/tommi.html">Tommi Jaakkola.
 
 <h1>NEWS</h1>
 
+- 24/05 We propose [a recipe for charge density prediction]() that achieves state of the art performance on charge prediction task 
 - 24/03 [MOFDiff](https://openreview.net/forum?id=0VBsoluxR2), a diffusion-based generative model for metal-organic frameworks, is accepted to ICLR 2024. [Code is available](https://github.com/microsoft/MOFDiff).
-- 23/12 [MatterGen: a generative model for inorganic materials design](https://arxiv.org/abs/2312.03687) is released.
