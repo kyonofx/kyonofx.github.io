@@ -96,8 +96,8 @@ analytics:
 author:
   name             : "Xiang Fu 付襄"
   avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "Research Scientist, Meta FAIR"
-  location         :
+  bio              : "Research Scientist"
+  location         : "Meta FAIR"
   email            :
   links:
     - label: "Email"

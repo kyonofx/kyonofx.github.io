@@ -36,9 +36,22 @@ sidebar:
 [Anders Johansson]: https://scholar.google.co.uk/citations?user=C25gxlIAAAAJ&hl=en
 [Boris Kozinsky]: https://mir.g.harvard.edu/people/boris-kozinsky
 [Yandong Ji]: https://yandongji.github.io/
+[Kyle Bystrom]: https://scholar.google.com/citations?user=r1EA_vYAAAAJ&hl=en
+[Rui Wang]: https://rui1521.github.io/online-cv/
+[Tess Smidt]: https://blondegeek.github.io/
+[Cameron Owen]: https://scholar.google.com/citations?user=uniXyQ0AAAAJ&hl=en
+[Yu Xie]: https://www.microsoft.com/en-us/research/people/yuxie1/
 
 <!-- <img align="left" margin='13px' width="60" height="60"  style="margin: 0px 20px" src="assets/../../images/dmc_driving.png"> -->
 # Preprints
+
+**Thermodynamically Informed Multimodal Learning of High-Dimensional Free Energy Models in Molecular Coarse Graining.** <br>
+[Blake Duschatko], Xiang Fu, [Cameron Owen], [Yu Xie], [Albert Musaelian], [Tommi Jaakkola], [Boris Kozinsky]. <br>
+[[paper]](https://arxiv.org/abs/2405.19386)
+
+**A Recipe for Charge Density Prediction.** <br>
+Xiang Fu, [Andrew Rosen], [Kyle Bystrom], [Rui Wang], [Albert Musaelian], [Boris Kozinsky], [Tess Smidt], [Tommi Jaakkola]. <br>
+[[paper]](https://arxiv.org/abs/2405.19276)
 
 **MatterGen: a generative model for inorganic materials design.** <br>
 Claudio Zeni\*, Robert Pinsler\*, Daniel Zügner\*, Andrew Fowler\*, Matthew Horton\*, Xiang Fu, Sasha Shysheya, Jonathan Crabbé, Lixin Sun, Jake Smith, Ryota Tomioka, Tian Xie. <br>
