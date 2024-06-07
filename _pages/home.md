@@ -12,5 +12,5 @@ I am a research scientist at [Meta FAIR](https://ai.meta.com/research). I work a
 
 <h1>NEWS</h1>
 
-- 24/05 We propose [a recipe for charge density prediction]() that achieves state of the art performance on charge prediction task 
+- 24/05 We propose [a recipe for charge density prediction](https://arxiv.org/abs/2405.19276) that achieves state of the art performance on charge prediction task in both accraucy and efficiency.
 - 24/03 [MOFDiff](https://openreview.net/forum?id=0VBsoluxR2), a diffusion-based generative model for metal-organic frameworks, is accepted to ICLR 2024. [Code is available](https://github.com/microsoft/MOFDiff).
