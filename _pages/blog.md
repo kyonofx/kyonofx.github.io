@@ -8,5 +8,5 @@ permalink: /blog
   # nav: "mymain"
 ---
 
-[2022/04 Machine Learning for Molecular Dynamics Simulation](/mlcgmd)
+[2022/04 Machine Learning for Molecular Dynamics Simulation](/mlcgmd) <br>
 [2021/06 Learning Task Informed Abstractions](/tia)
