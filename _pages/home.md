@@ -8,13 +8,7 @@ sidebar:
 
 <h1>ABOUT</h1>
 
-I am a graduate student at MIT CSAIL working with
-<a style="text-decoration:none" href="https://people.csail.mit.edu/tommi/tommi.html">Tommi Jaakkola</a>,
-<a style="text-decoration:none" href="https://people.csail.mit.edu/pulkitag">Pulkit Agrawal</a>,
-and <a style="text-decoration:none" href="https://mir.g.harvard.edu/people/boris-kozinsky">Boris Kozinsky</a>. 
-I work at the intersection of machine learning, computational chemistry, and materials science.
-My research aims to leverage the multi-scale and multi-modal nature of physical systems, as well as their symmetry properties, to develop powerful and scalable learning models and algorithms.
-My research combines generative modeling of atomistic structures and learned simulation techniques to accelerate the design of new materials and molecules with desired properties.
+I am a research scientist at [Meta FAIR Chemistry](https://github.com/FAIR-Chem/fairchem). I work at the intersection of machine learning, computational chemistry, and materials science. My research aims to leverage the multi-scale and multi-modal nature of physical systems, as well as their symmetry properties, to develop powerful and scalable learning models and algorithms. My research combines generative modeling of atomistic structures and learned simulation techniques to accelerate the design of new materials and molecules with desired properties. I completed PhD at MIT CSAIL, advised by <a style="text-decoration:none" href="https://people.csail.mit.edu/tommi/tommi.html">Tommi Jaakkola.
 
 <h1>NEWS</h1>
 
