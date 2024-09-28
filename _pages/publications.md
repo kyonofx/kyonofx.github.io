@@ -56,7 +56,7 @@ For a full list of publications, please refer to my [Google Scholar](https://sch
 **A Recipe for Charge Density Prediction.** <br>
 Xiang Fu, [Andrew Rosen], [Kyle Bystrom], [Rui Wang], [Albert Musaelian], [Boris Kozinsky], [Tess Smidt], [Tommi Jaakkola]. <br>
 *Neural Information Processing Systems (NeurIPS), 2024.* <br>
-[[paper]](https://arxiv.org/abs/2405.19276)
+[[paper]](https://arxiv.org/abs/2405.19276) [[code]](https://github.com/kyonofx/scdp)
 
 **Virtual Node Graph Neural Network for Full Phonon Prediction.** <br>
 Ryotaro Okabe, Abhijatmedhi Chotrattanapituk, Artittaya Boonkird, Nina Andrejevic, Xiang Fu, [Tommi Jaakkola], Qichen Song, Thanh Nguyen, Nathan Drucker, Sai Mu, Bolin Liao, Yongqiang Cheng, Mingda Li <br>
