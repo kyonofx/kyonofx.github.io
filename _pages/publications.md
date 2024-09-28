@@ -43,39 +43,40 @@ sidebar:
 [Yu Xie]: https://www.microsoft.com/en-us/research/people/yuxie1/
 [Blake Duschatko]: https://scholar.google.com/citations?user=wWiwYlsAAAAJ&hl=en
 <!-- <img align="left" margin='13px' width="60" height="60"  style="margin: 0px 20px" src="assets/../../images/dmc_driving.png"> -->
-# Preprints
+
+For a full list of publications, please refer to my [Google Scholar](https://scholar.google.com/citations?user=Cb-ZgHEAAAAJ&hl=en) page.
+
+# Selected Papers
 
 **Thermodynamically Informed Multimodal Learning of High-Dimensional Free Energy Models in Molecular Coarse Graining.** <br>
 [Blake Duschatko], Xiang Fu, [Cameron Owen], [Yu Xie], [Albert Musaelian], [Tommi Jaakkola], [Boris Kozinsky]. <br>
+*Preprint, 2024.* <br>
 [[paper]](https://arxiv.org/abs/2405.19386)
 
 **A Recipe for Charge Density Prediction.** <br>
 Xiang Fu, [Andrew Rosen], [Kyle Bystrom], [Rui Wang], [Albert Musaelian], [Boris Kozinsky], [Tess Smidt], [Tommi Jaakkola]. <br>
+*Neural Information Processing Systems (NeurIPS), 2024.* <br>
 [[paper]](https://arxiv.org/abs/2405.19276)
-
-**MatterGen: a generative model for inorganic materials design.** <br>
-Claudio Zeni\*, Robert Pinsler\*, Daniel Zügner\*, Andrew Fowler\*, Matthew Horton\*, Xiang Fu, Sasha Shysheya, Jonathan Crabbé, Lixin Sun, Jake Smith, Ryota Tomioka, Tian Xie. <br>
-[[paper]](https://arxiv.org/abs/2312.03687)
-
-**Learning Interatomic Potentials at Multiple Scales.** <br>
-Xiang Fu, [Albert Musaelian], [Anders Johansson], [Tommi Jaakkola], [Boris Kozinsky]. <br>
-[[paper]](https://arxiv.org/abs/2310.13756)
 
 **Virtual Node Graph Neural Network for Full Phonon Prediction.** <br>
 Ryotaro Okabe, Abhijatmedhi Chotrattanapituk, Artittaya Boonkird, Nina Andrejevic, Xiang Fu, [Tommi Jaakkola], Qichen Song, Thanh Nguyen, Nathan Drucker, Sai Mu, Bolin Liao, Yongqiang Cheng, Mingda Li <br>
+*Nature Computational Science, 2024.* <br>
 [[paper]](https://arxiv.org/abs/2301.02197)
-
-# Publications
 
 **MOFDiff: Coarse-grained Diffusion for Metal-Organic Framework Design.** <br>
 Xiang Fu, [Tian Xie], [Andrew Rosen], [Tommi Jaakkola], [Jake Smith]. <br>
 *International Conference on Learning Representations (ICLR), 2024.* <br>
-[[paper]](https://arxiv.org/abs/2310.10732)
+[[paper]](https://arxiv.org/abs/2310.10732) [[code]]()
+
+**MatterGen: a generative model for inorganic materials design.** <br>
+Claudio Zeni\*, Robert Pinsler\*, Daniel Zügner\*, Andrew Fowler\*, Matthew Horton\*, Xiang Fu, Sasha Shysheya, Jonathan Crabbé, Lixin Sun, Bichlien Nguyen, Hannes Schulz, Sarah Lewis, Chin-Wei Huang, Ziheng Lu, Yichi Zhou, Han Yang, Hongxia Hao, Jielan Li, Ryota Tomioka\*, Tian Xie\*. <br>
+*Preprint, 2023.* <br>
+[[paper]](https://arxiv.org/abs/2312.03687)
 
 **Learning to See Physical Properties with Active Sensing Motor Policies.** <br>
 [Gabriel Margolis], Xiang Fu, [Yandong Ji], [Pulkit Agrawal] <br>
 *Conference on Robot Learning (CoRL), 2023.* <br>
-[[paper]](https://openreview.net/forum?id=RQ_7yVV8vA)
+[[website]](https://gmargo11.github.io/active-sensing-loco/) [[paper]](https://openreview.net/forum?id=RQ_7yVV8vA)
 
 **Simulate Time-integrated Coarse-grained Molecular Dynamics with Multi-scale Graph Networks.** <br>
 Xiang Fu\*, [Tian Xie]\*, [Nathan J. Rebello], [Bradley D. Olsen], [Tommi Jaakkola]. <br>
@@ -105,9 +106,3 @@ Xiang Fu\*, [Ge Yang]\*, [Pulkit Agrawal], [Tommi Jaakkola]. <br>
 [[website]](/tia) 
 [[paper]](https://arxiv.org/abs/2106.15612) 
 [[code]](https://github.com/kyonofx/tia)
-
-**Modeling and Analysis of Tagging Networks in Stack Exchange Communities.** <br>
-Xiang Fu\*, [Shangdi Yu]\*, [Austin R. Benson]. <br>
-*Journal of Complex Networks, 2020.* <br>
-[[paper]](https://arxiv.org/abs/1902.02372)
-[[code]](https://github.com/yushangdi/stack-exchange-cotagging)
