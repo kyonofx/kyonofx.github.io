@@ -58,25 +58,15 @@ Xiang Fu, [Andrew Rosen], [Kyle Bystrom], [Rui Wang], [Albert Musaelian], [Boris
 *Neural Information Processing Systems (NeurIPS), 2024.* <br>
 [[paper]](https://arxiv.org/abs/2405.19276) [[code]](https://github.com/kyonofx/scdp)
 
-**Virtual Node Graph Neural Network for Full Phonon Prediction.** <br>
-Ryotaro Okabe, Abhijatmedhi Chotrattanapituk, Artittaya Boonkird, Nina Andrejevic, Xiang Fu, [Tommi Jaakkola], Qichen Song, Thanh Nguyen, Nathan Drucker, Sai Mu, Bolin Liao, Yongqiang Cheng, Mingda Li <br>
-*Nature Computational Science, 2024.* <br>
-[[paper]](https://arxiv.org/abs/2301.02197)
-
 **MOFDiff: Coarse-grained Diffusion for Metal-Organic Framework Design.** <br>
 Xiang Fu, [Tian Xie], [Andrew Rosen], [Tommi Jaakkola], [Jake Smith]. <br>
 *International Conference on Learning Representations (ICLR), 2024.* <br>
-[[paper]](https://arxiv.org/abs/2310.10732) [[code]]()
+[[paper]](https://arxiv.org/abs/2310.10732) [[code]](https://github.com/microsoft/MOFDiff)
 
 **MatterGen: a generative model for inorganic materials design.** <br>
 Claudio Zeni\*, Robert Pinsler\*, Daniel Zügner\*, Andrew Fowler\*, Matthew Horton\*, Xiang Fu, Sasha Shysheya, Jonathan Crabbé, Lixin Sun, Bichlien Nguyen, Hannes Schulz, Sarah Lewis, Chin-Wei Huang, Ziheng Lu, Yichi Zhou, Han Yang, Hongxia Hao, Jielan Li, Ryota Tomioka\*, Tian Xie\*. <br>
 *Preprint, 2023.* <br>
 [[paper]](https://arxiv.org/abs/2312.03687)
-
-**Learning to See Physical Properties with Active Sensing Motor Policies.** <br>
-[Gabriel Margolis], Xiang Fu, [Yandong Ji], [Pulkit Agrawal] <br>
-*Conference on Robot Learning (CoRL), 2023.* <br>
-[[website]](https://gmargo11.github.io/active-sensing-loco/) [[paper]](https://openreview.net/forum?id=RQ_7yVV8vA)
 
 **Simulate Time-integrated Coarse-grained Molecular Dynamics with Multi-scale Graph Networks.** <br>
 Xiang Fu\*, [Tian Xie]\*, [Nathan J. Rebello], [Bradley D. Olsen], [Tommi Jaakkola]. <br>
@@ -94,15 +84,25 @@ Xiang Fu, [Zhenghao Wu], [Wujie Wang], [Tian Xie], [Sinan Keten], [Rafael Gomez-
 [[paper]](https://arxiv.org/abs/2110.06197)
 [[code]](https://github.com/txie-93/cdvae)
 
-**Learning to Jump from Pixels.** <br>
-[Gabriel Margolis], [Tao Chen], [Kartik Paigwar], Xiang Fu, [Donghyun Kim], [Sangbae Kim], [Pulkit Agrawal]. <br>
-*Conference on Robot Learning (CoRL), 2021.* <br>
-[[website]](https://sites.google.com/view/jumpingfrompixels)
-[[paper]](https://openreview.net/forum?id=R4E8wTUtxdl)
-
 **Learning Task Informed Abstractions.** <br>
 Xiang Fu\*, [Ge Yang]\*, [Pulkit Agrawal], [Tommi Jaakkola]. <br>
 *International Conference on Machine Learning (ICML), 2021.* <br>
 [[website]](/tia) 
 [[paper]](https://arxiv.org/abs/2106.15612) 
 [[code]](https://github.com/kyonofx/tia)
+
+<!-- **Virtual Node Graph Neural Network for Full Phonon Prediction.** <br>
+Ryotaro Okabe, Abhijatmedhi Chotrattanapituk, Artittaya Boonkird, Nina Andrejevic, Xiang Fu, [Tommi Jaakkola], Qichen Song, Thanh Nguyen, Nathan Drucker, Sai Mu, Bolin Liao, Yongqiang Cheng, Mingda Li <br>
+*Nature Computational Science, 2024.* <br>
+[[paper]](https://arxiv.org/abs/2301.02197) [[code]](https://github.com/RyotaroOKabe/phonon_prediction) -->
+
+<!-- **Learning to See Physical Properties with Active Sensing Motor Policies.** <br>
+[Gabriel Margolis], Xiang Fu, [Yandong Ji], [Pulkit Agrawal] <br>
+*Conference on Robot Learning (CoRL), 2023.* <br>
+[[website]](https://gmargo11.github.io/active-sensing-loco/) [[paper]](https://openreview.net/forum?id=RQ_7yVV8vA)
+
+**Learning to Jump from Pixels.** <br>
+[Gabriel Margolis], [Tao Chen], [Kartik Paigwar], Xiang Fu, [Donghyun Kim], [Sangbae Kim], [Pulkit Agrawal]. <br>
+*Conference on Robot Learning (CoRL), 2021.* <br>
+[[website]](https://sites.google.com/view/jumpingfrompixels)
+[[paper]](https://openreview.net/forum?id=R4E8wTUtxdl) -->
