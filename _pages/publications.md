@@ -49,37 +49,37 @@ For a full list of publications, please refer to my [Google Scholar](https://sch
 # Selected Papers
 
 **MatterGen: a generative model for inorganic materials design.** <br>
-Claudio Zeni\*, Robert Pinsler\*, Daniel Zügner\*, Andrew Fowler\*, Matthew Horton\*, Xiang Fu, Zilong Wang, Aliaksandra Shysheya, Jonathan Crabbé, Shoko Ueda, Roberto Sordillo, Lixin Sun, Jake Smith, Bichlien Nguyen, Hannes Schulz, Sarah Lewis, Chin-Wei Huang, Ziheng Lu, Yichi Zhou, Han Yang, Hongxia Hao, Jielan Li, Chunlei Yang, Wenjie Li, Ryota Tomioka\*, [Tian Xie]\*. <br>
+Claudio Zeni\*, Robert Pinsler\*, Daniel Zügner\*, Andrew Fowler\*, Matthew Horton\*,  <u>Xiang Fu</u>, Zilong Wang, Aliaksandra Shysheya, Jonathan Crabbé, Shoko Ueda, Roberto Sordillo, Lixin Sun, Jake Smith, Bichlien Nguyen, Hannes Schulz, Sarah Lewis, Chin-Wei Huang, Ziheng Lu, Yichi Zhou, Han Yang, Hongxia Hao, Jielan Li, Chunlei Yang, Wenjie Li, Ryota Tomioka\*, [Tian Xie]\*. <br>
 *Nature, 2025.* <br>
 [[paper]](https://www.nature.com/articles/s41586-025-08628-5) [[code]](https://github.com/microsoft/mattergen)
 
 **A Recipe for Charge Density Prediction.** <br>
-Xiang Fu, [Andrew Rosen], [Kyle Bystrom], [Rui Wang], [Albert Musaelian], [Boris Kozinsky], [Tess Smidt], [Tommi Jaakkola]. <br>
+ <u>Xiang Fu</u>, [Andrew Rosen], [Kyle Bystrom], [Rui Wang], [Albert Musaelian], [Boris Kozinsky], [Tess Smidt], [Tommi Jaakkola]. <br>
 *Neural Information Processing Systems (NeurIPS), 2024.* <br>
 [[paper]](https://arxiv.org/abs/2405.19276) [[code]](https://github.com/kyonofx/scdp)
 
 **MOFDiff: Coarse-grained Diffusion for Metal-Organic Framework Design.** <br>
-Xiang Fu, [Tian Xie], [Andrew Rosen], [Tommi Jaakkola], [Jake Smith]. <br>
+ <u>Xiang Fu</u>, [Tian Xie], [Andrew Rosen], [Tommi Jaakkola], [Jake Smith]. <br>
 *International Conference on Learning Representations (ICLR), 2024.* <br>
 [[paper]](https://arxiv.org/abs/2310.10732) [[code]](https://github.com/microsoft/MOFDiff)
 
 **Simulate Time-integrated Coarse-grained Molecular Dynamics with Multi-scale Graph Networks.** <br>
-Xiang Fu\*, [Tian Xie]\*, [Nathan J. Rebello], [Bradley D. Olsen], [Tommi Jaakkola]. <br>
+ <u>Xiang Fu\*</u>, [Tian Xie]\*, [Nathan J. Rebello], [Bradley D. Olsen], [Tommi Jaakkola]. <br>
 *Transactions on Machine Learning Research (TMLR), 2023.* <br>
 [[paper]](https://openreview.net/forum?id=y8RZoPjEUl) [[code]](https://xiangfu.co/mlcgmd)
 
 **Forces are not Enough: Benchmark and Critical Evaluation for Machine Learning Force Fields with Molecular Simulations.** <br>
-Xiang Fu, [Zhenghao Wu], [Wujie Wang], [Tian Xie], [Sinan Keten], [Rafael Gomez-Bombarelli], [Tommi Jaakkola]. <br>
+ <u>Xiang Fu<u>, [Zhenghao Wu], [Wujie Wang], [Tian Xie], [Sinan Keten], [Rafael Gomez-Bombarelli], [Tommi Jaakkola]. <br>
 *Transactions on Machine Learning Research (TMLR), 2023.* <br>
 [[paper]](https://openreview.net/forum?id=A8pqQipwkt) [[code]](https://github.com/kyonofx/MDsim)
 
 **Crystal Diffusion Variational Autoencoder for Periodic Material Generation.** <br>
-[Tian Xie]\*, Xiang Fu\*, [Octavian Ganea]\*, [Regina Barzilay], [Tommi Jaakkola]. <br>
+[Tian Xie]\*, <u>Xiang Fu\*<u>, [Octavian Ganea]\*, [Regina Barzilay], [Tommi Jaakkola]. <br>
 *International Conference on Learning Representations (ICLR), 2022.* <br>
 [[paper]](https://arxiv.org/abs/2110.06197) [[code]](https://github.com/txie-93/cdvae)
 
 **Learning Task Informed Abstractions.** <br>
-Xiang Fu\*, [Ge Yang]\*, [Pulkit Agrawal], [Tommi Jaakkola]. <br>
+ <u>Xiang Fu\*</u>, [Ge Yang]\*, [Pulkit Agrawal], [Tommi Jaakkola]. <br>
 *International Conference on Machine Learning (ICML), 2021.* <br>
 [[paper]](https://arxiv.org/abs/2106.15612) [[code]](https://github.com/kyonofx/tia)
 
