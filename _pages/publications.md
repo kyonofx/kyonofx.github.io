@@ -48,10 +48,10 @@ For a full list of publications, please refer to my [Google Scholar](https://sch
 
 # Selected Papers
 
-**Thermodynamically Informed Multimodal Learning of High-Dimensional Free Energy Models in Molecular Coarse Graining.** <br>
-[Blake Duschatko], Xiang Fu, [Cameron Owen], [Yu Xie], [Albert Musaelian], [Tommi Jaakkola], [Boris Kozinsky]. <br>
-*Preprint, 2024.* <br>
-[[paper]](https://arxiv.org/abs/2405.19386)
+**MatterGen: a generative model for inorganic materials design.** <br>
+Claudio Zeni\*, Robert Pinsler\*, Daniel Zügner\*, Andrew Fowler\*, Matthew Horton\*, Xiang Fu, Zilong Wang, Aliaksandra Shysheya, Jonathan Crabbé, Shoko Ueda, Roberto Sordillo, Lixin Sun, Jake Smith, Bichlien Nguyen, Hannes Schulz, Sarah Lewis, Chin-Wei Huang, Ziheng Lu, Yichi Zhou, Han Yang, Hongxia Hao, Jielan Li, Chunlei Yang, Wenjie Li, Ryota Tomioka\*, [Tian Xie]\*. <br>
+*Nature, 2025.* <br>
+[[paper]](https://www.nature.com/articles/s41586-025-08628-5) [[code]](https://github.com/microsoft/mattergen)
 
 **A Recipe for Charge Density Prediction.** <br>
 Xiang Fu, [Andrew Rosen], [Kyle Bystrom], [Rui Wang], [Albert Musaelian], [Boris Kozinsky], [Tess Smidt], [Tommi Jaakkola]. <br>
@@ -63,15 +63,10 @@ Xiang Fu, [Tian Xie], [Andrew Rosen], [Tommi Jaakkola], [Jake Smith]. <br>
 *International Conference on Learning Representations (ICLR), 2024.* <br>
 [[paper]](https://arxiv.org/abs/2310.10732) [[code]](https://github.com/microsoft/MOFDiff)
 
-**MatterGen: a generative model for inorganic materials design.** <br>
-Claudio Zeni\*, Robert Pinsler\*, Daniel Zügner\*, Andrew Fowler\*, Matthew Horton\*, Xiang Fu, Sasha Shysheya, Jonathan Crabbé, Lixin Sun, Bichlien Nguyen, Hannes Schulz, Sarah Lewis, Chin-Wei Huang, Ziheng Lu, Yichi Zhou, Han Yang, Hongxia Hao, Jielan Li, Ryota Tomioka\*, Tian Xie\*. <br>
-*Preprint, 2023.* <br>
-[[paper]](https://arxiv.org/abs/2312.03687)
-
 **Simulate Time-integrated Coarse-grained Molecular Dynamics with Multi-scale Graph Networks.** <br>
 Xiang Fu\*, [Tian Xie]\*, [Nathan J. Rebello], [Bradley D. Olsen], [Tommi Jaakkola]. <br>
 *Transactions on Machine Learning Research (TMLR), 2023.* <br>
-[[website]](/mlcgmd) [[paper]](https://openreview.net/forum?id=y8RZoPjEUl) [[code]](https://xiangfu.co/mlcgmd)
+[[paper]](https://openreview.net/forum?id=y8RZoPjEUl) [[code]](https://xiangfu.co/mlcgmd)
 
 **Forces are not Enough: Benchmark and Critical Evaluation for Machine Learning Force Fields with Molecular Simulations.** <br>
 Xiang Fu, [Zhenghao Wu], [Wujie Wang], [Tian Xie], [Sinan Keten], [Rafael Gomez-Bombarelli], [Tommi Jaakkola]. <br>
@@ -81,15 +76,17 @@ Xiang Fu, [Zhenghao Wu], [Wujie Wang], [Tian Xie], [Sinan Keten], [Rafael Gomez-
 **Crystal Diffusion Variational Autoencoder for Periodic Material Generation.** <br>
 [Tian Xie]\*, Xiang Fu\*, [Octavian Ganea]\*, [Regina Barzilay], [Tommi Jaakkola]. <br>
 *International Conference on Learning Representations (ICLR), 2022.* <br>
-[[paper]](https://arxiv.org/abs/2110.06197)
-[[code]](https://github.com/txie-93/cdvae)
+[[paper]](https://arxiv.org/abs/2110.06197) [[code]](https://github.com/txie-93/cdvae)
 
 **Learning Task Informed Abstractions.** <br>
 Xiang Fu\*, [Ge Yang]\*, [Pulkit Agrawal], [Tommi Jaakkola]. <br>
 *International Conference on Machine Learning (ICML), 2021.* <br>
-[[website]](/tia) 
-[[paper]](https://arxiv.org/abs/2106.15612) 
-[[code]](https://github.com/kyonofx/tia)
+[[paper]](https://arxiv.org/abs/2106.15612) [[code]](https://github.com/kyonofx/tia)
+
+<!-- **Thermodynamically Informed Multimodal Learning of High-Dimensional Free Energy Models in Molecular Coarse Graining.** <br>
+[Blake Duschatko], Xiang Fu, [Cameron Owen], [Yu Xie], [Albert Musaelian], [Tommi Jaakkola], [Boris Kozinsky]. <br>
+*Preprint, 2024.* <br>
+[[paper]](https://arxiv.org/abs/2405.19386) -->
 
 <!-- **Virtual Node Graph Neural Network for Full Phonon Prediction.** <br>
 Ryotaro Okabe, Abhijatmedhi Chotrattanapituk, Artittaya Boonkird, Nina Andrejevic, Xiang Fu, [Tommi Jaakkola], Qichen Song, Thanh Nguyen, Nathan Drucker, Sai Mu, Bolin Liao, Yongqiang Cheng, Mingda Li <br>

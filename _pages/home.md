@@ -12,5 +12,6 @@ I am a research scientist at [Meta FAIR](https://ai.meta.com/research). I work a
 
 <h1>NEWS</h1>
 
+- 25/01 [MatterGen](https://www.nature.com/articles/s41586-025-08628-5) is published in Nature. [Code](https://github.com/microsoft/mattergen) is available under an MIT license.
+- 24/10 The FAIR Chemistry team released the [OMat24 dataset](https://arxiv.org/abs/2410.12771), one of the largest open dataset for materials quantum mechanical calculations.
 - 24/09 [A recipe for charge density prediction](https://arxiv.org/abs/2405.19276), which proposes a state of the art charge density prediction model, is accepted to NeurIPS 2024. [Code is available](https://github.com/kyonofx/scdp).
-- 24/06 I graduated from MIT and joined the [FAIR Chemistry](https://fair-chem.github.io/) team at Meta as a research scientist, continuing research on machine learning for chemistry and materials science.
