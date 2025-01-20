@@ -64,7 +64,7 @@ Claudio Zeni\*, Robert Pinsler\*, Daniel Zügner\*, Andrew Fowler\*, Matthew Hor
 [[paper]](https://arxiv.org/abs/2310.10732) [[code]](https://github.com/microsoft/MOFDiff)
 
 **Simulate Time-integrated Coarse-grained Molecular Dynamics with Multi-scale Graph Networks.** <br>
- <u>Xiang Fu\*</u>, [Tian Xie]\*, [Nathan J. Rebello], [Bradley D. Olsen], [Tommi Jaakkola]. <br>
+ <u>Xiang Fu</u>\*, [Tian Xie]\*, [Nathan J. Rebello], [Bradley D. Olsen], [Tommi Jaakkola]. <br>
 *Transactions on Machine Learning Research (TMLR), 2023.* <br>
 [[paper]](https://openreview.net/forum?id=y8RZoPjEUl) [[code]](https://xiangfu.co/mlcgmd)
 
@@ -74,12 +74,12 @@ Claudio Zeni\*, Robert Pinsler\*, Daniel Zügner\*, Andrew Fowler\*, Matthew Hor
 [[paper]](https://openreview.net/forum?id=A8pqQipwkt) [[code]](https://github.com/kyonofx/MDsim)
 
 **Crystal Diffusion Variational Autoencoder for Periodic Material Generation.** <br>
-[Tian Xie]\*, <u>Xiang Fu\*<u>, [Octavian Ganea]\*, [Regina Barzilay], [Tommi Jaakkola]. <br>
+[Tian Xie]\*, <u>Xiang Fu<u>\*, [Octavian Ganea]\*, [Regina Barzilay], [Tommi Jaakkola]. <br>
 *International Conference on Learning Representations (ICLR), 2022.* <br>
 [[paper]](https://arxiv.org/abs/2110.06197) [[code]](https://github.com/txie-93/cdvae)
 
 **Learning Task Informed Abstractions.** <br>
- <u>Xiang Fu\*</u>, [Ge Yang]\*, [Pulkit Agrawal], [Tommi Jaakkola]. <br>
+ <u>Xiang Fu</u>\*, [Ge Yang]\*, [Pulkit Agrawal], [Tommi Jaakkola]. <br>
 *International Conference on Machine Learning (ICML), 2021.* <br>
 [[paper]](https://arxiv.org/abs/2106.15612) [[code]](https://github.com/kyonofx/tia)
 
