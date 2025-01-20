@@ -69,12 +69,12 @@ Claudio Zeni\*, Robert Pinsler\*, Daniel Zügner\*, Andrew Fowler\*, Matthew Hor
 [[paper]](https://openreview.net/forum?id=y8RZoPjEUl) [[code]](https://xiangfu.co/mlcgmd)
 
 **Forces are not Enough: Benchmark and Critical Evaluation for Machine Learning Force Fields with Molecular Simulations.** <br>
- <u>Xiang Fu<u>, [Zhenghao Wu], [Wujie Wang], [Tian Xie], [Sinan Keten], [Rafael Gomez-Bombarelli], [Tommi Jaakkola]. <br>
+ <u>Xiang Fu</u>, [Zhenghao Wu], [Wujie Wang], [Tian Xie], [Sinan Keten], [Rafael Gomez-Bombarelli], [Tommi Jaakkola]. <br>
 *Transactions on Machine Learning Research (TMLR), 2023.* <br>
 [[paper]](https://openreview.net/forum?id=A8pqQipwkt) [[code]](https://github.com/kyonofx/MDsim)
 
 **Crystal Diffusion Variational Autoencoder for Periodic Material Generation.** <br>
-[Tian Xie]\*, <u>Xiang Fu<u>\*, [Octavian Ganea]\*, [Regina Barzilay], [Tommi Jaakkola]. <br>
+[Tian Xie]\*, <u>Xiang Fu</u>\*, [Octavian Ganea]\*, [Regina Barzilay], [Tommi Jaakkola]. <br>
 *International Conference on Learning Representations (ICLR), 2022.* <br>
 [[paper]](https://arxiv.org/abs/2110.06197) [[code]](https://github.com/txie-93/cdvae)
 
