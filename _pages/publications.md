@@ -48,7 +48,12 @@ For a full list of publications, please refer to my [Google Scholar](https://sch
 
 # Selected Papers
 
-**MatterGen: a generative model for inorganic materials design.** <br>
+**Learning Smooth and Expressive Interatomic Potentials for Physical Property Prediction.** <br>
+Xiang Fu, Brandon M. Wood, Luis Barroso-Luque, Daniel S. Levine, Meng Gao, Misko Dzamba, C. Lawrence Zitnick. <br>
+*Preprint, 2025.* <br>
+[[paper]](https://arxiv.org/abs/2502.12147) [[code]](https://github.com/FAIR-Chem/fairchem)
+
+**A Generative Model for Inorganic Materials Design.** <br>
 Claudio Zeni\*, Robert Pinsler\*, Daniel Zügner\*, Andrew Fowler\*, Matthew Horton\*, Xiang Fu, Zilong Wang, Aliaksandra Shysheya, Jonathan Crabbé, Shoko Ueda, Roberto Sordillo, Lixin Sun, Jake Smith, Bichlien Nguyen, Hannes Schulz, Sarah Lewis, Chin-Wei Huang, Ziheng Lu, Yichi Zhou, Han Yang, Hongxia Hao, Jielan Li, Chunlei Yang, Wenjie Li, Ryota Tomioka\*, [Tian Xie]\*. <br>
 *Nature, 2025.* <br>
 [[paper]](https://www.nature.com/articles/s41586-025-08628-5) [[code]](https://github.com/microsoft/mattergen)
