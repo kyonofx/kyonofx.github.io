@@ -8,7 +8,7 @@ sidebar:
 
 <h1>ABOUT</h1>
 
-I am a research scientist at [Meta FAIR](https://ai.meta.com/research). I work at the intersection of machine learning, computational chemistry, and materials science. My research combines learned simulation, generative modeling, and reinforcement learning to accelerate the design of new materials and molecules with desired properties. I completed my PhD at MIT CSAIL, advised by <a style="text-decoration:none" href="https://people.csail.mit.edu/tommi/tommi.html">Tommi Jaakkola.
+I am a research scientist at [Meta FAIR](https://ai.meta.com/research). I work at the intersection of machine learning, computational chemistry, and materials science. My research combines learned simulation and generative modeling to accelerate the design of new materials and molecules with desired properties. I completed my PhD at MIT CSAIL, advised by <a style="text-decoration:none" href="https://people.csail.mit.edu/tommi/tommi.html">Tommi Jaakkola.
 
 <h1>NEWS</h1>
 
