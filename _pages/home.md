@@ -8,7 +8,7 @@ sidebar:
 
 <h1>ABOUT</h1>
 
-I work on AI + Atoms. Previously, I was on the FAIR Chemistry team at [Meta](https://ai.meta.com/research). I completed my PhD at MIT CSAIL, advised by <a style="text-decoration:none" href="https://people.csail.mit.edu/tommi/tommi.html">Tommi Jaakkola.
+I work on AI + Atoms. Previously, I was on the [FAIR Chemistry](https://fair-chem.github.io/) team at Meta. I completed my PhD at MIT CSAIL, advised by <a style="text-decoration:none" href="https://people.csail.mit.edu/tommi/tommi.html">Tommi Jaakkola.
 
 <h1>NEWS</h1>
 
