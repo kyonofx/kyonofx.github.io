@@ -48,6 +48,12 @@ For a full list of publications, please refer to my [Google Scholar](https://sch
 
 # Selected Papers
 
+**UMA: A Family of Universal Models for Atoms.**<br>
+Brandon M. Wood\*, Misko Dzamba\*, Xiang Fu\*, Meng Gao\*, Muhammed Shuaibi\*, Luis Barroso-Luque, Kareem Abdelmaqsoud, Vahe Gharakhanyan, John R. Kitchin, Daniel S. Levine, Kyle Michel, Anuroop Sriram, Taco Cohen, Abhishek Das, Ammar Rizvi, Sushree Jagriti Sahoo, Zachary W. Ulissi, C. Lawrence Zitnick. <br>
+*Preprint, 2025.* <br>
+[[paper]](https://ai.meta.com/research/publications/uma-a-family-of-universal-models-for-atoms/) [[code]](https://github.com/FAIR-Chem/fairchem) [[checkpoint]](https://huggingface.co/facebook/UMA)
+
+
 **Learning Smooth and Expressive Interatomic Potentials for Physical Property Prediction.** <br>
 Xiang Fu, Brandon M. Wood, Luis Barroso-Luque, Daniel S. Levine, Meng Gao, Misko Dzamba, C. Lawrence Zitnick. <br>
 *International Conference on Machine Learning (ICML), 2025.* <br>
