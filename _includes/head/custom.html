@@ -442,6 +442,44 @@ body {
   counter-reset: sidenote-counter;
 }
 
+/* Gallery mobile responsive fixes */
+figure.fifth {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 0.5em;
+  margin: 1em 0;
+}
+
+figure.fifth > a,
+figure.fifth > img {
+  flex: 0 0 auto;
+  max-width: 100%;
+  height: auto;
+}
+
+/* Mobile gallery styling */
+@media (max-width: 767px) {
+  figure.fifth > a,
+  figure.fifth > img {
+    width: calc(50% - 0.25em) !important;
+    max-width: calc(50% - 0.25em);
+  }
+  
+  figure.fifth {
+    gap: 0.25em;
+  }
+}
+
+/* Very small mobile screens */
+@media (max-width: 480px) {
+  figure.fifth > a,
+  figure.fifth > img {
+    width: 100% !important;
+    max-width: 100%;
+  }
+}
+
 </style>
 
 <!-- insert favicons. use https://realfavicongenerator.net/ -->
