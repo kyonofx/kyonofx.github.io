@@ -1,5 +1,5 @@
 ---
-layout: single
+layout: project_clean
 permalink: /mlcgmd
 # author_profile: true
 # sidebar:
@@ -25,17 +25,7 @@ gallery:
 <h1 align="center">
 Simulate Time-integrated Coarse-grained Molecular Dynamics with Multi-scale Graph Networks
 </h1>
-<p font-weight:bold align="center">
-<strong>Xiang Fu<sup>1</sup>*, Tian Xie<sup>1</sup>*, Nathan J. Rebello<sup>2</sup>, Bradley D. Olsen<sup>2</sup>, Tommi Jaakkola<sup>1</sup> <br>
-<sup>1</sup>MIT CSAIL &emsp; <sup>2</sup>Department of Chemical Engineering, MIT &emsp; *Equal Contribution <br>
-</strong> 
-APS March Meeting 2022 <br>
-ICLR 2022 DGM4HSD Workshop <br>
-MRS Spring Meeting 2022 <br>
-<a href="https://arxiv.org/abs/2204.10348">[paper]</a>
-<a href="https://github.com/kyonofx/mlcgmd">[code]</a>
-<!-- <a href="/assets/projects/mlcgmd/fu2022simulate.bib">[bibtex]</a> -->
-</p>
+<div class="post-date-header">April 2022</div>
 <!-- <HTML>
 <HEAD> <TITLE>Activity - Insert animated GIF to HTML</TITLE> </HEAD>
 <BODY align="center">
@@ -43,13 +33,13 @@ MRS Spring Meeting 2022 <br>
 </BODY>
 </HTML> -->
 
-<h4 align="center">
+<h4>
 Video 
 </h4>
 
 {% include video id="l3aGVjQezsc" provider="youtube" %}
 
-<h4 align="center">
+<h4>
 Abstract
 </h4>
 

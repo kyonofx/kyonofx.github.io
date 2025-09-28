@@ -58,30 +58,97 @@ layout: default_project
         </header>
       {% endunless %}
 
+      <!-- Author Info Section -->
+      <section class="author-info">
+        <div class="author-details">
+          <h3>{{ site.author.name }}</h3>
+        <div class="author-links">
+          <a href="/blog" title="Blog">
+            <i class="fas fa-feather-alt"></i> Blog
+          </a>
+          <a href="https://scholar.google.com/citations?user=Cb-ZgHEAAAAJ&hl=en&oi=ao" title="Google Scholar" target="_blank">
+            <i class="ai ai-google-scholar"></i> Scholar
+          </a>
+          <a href="https://github.com/kyonofx" title="GitHub" target="_blank">
+            <i class="fab fa-github"></i> GitHub
+          </a>
+          <a href="https://twitter.com/xiangfu_ml" title="Twitter" target="_blank">
+            <i class="fab fa-twitter"></i> Twitter
+          </a>
+          <a href="mailto:dainves1@gmail.com" title="Email">
+            <i class="fas fa-envelope"></i> Email
+          </a>
+        </div>
+          <div class="author-bio">
+            <p>I work on AI + Atoms. Previously, I was on the <a href="https://fair-chem.github.io/" target="_blank">FAIR Chemistry</a> team at Meta. I completed my PhD at MIT CSAIL, advised by <a href="https://people.csail.mit.edu/tommi/tommi.html" target="_blank">Tommi Jaakkola</a>.</p>
+          </div>
+        </div>
+      </section>
+
+      <!-- Publications Section -->
+      <section class="publications-section">
+        <h3>Selected Publications</h3>
+        <div class="publication-list">
+          <div class="publication">
+            <strong>Learning Smooth and Expressive Interatomic Potentials for Physical Property Prediction.</strong><br>
+            <em>ICML 2025.</em><br>
+            <a href="https://icml.cc/virtual/2025/poster/45302" target="_blank">paper</a>
+          </div>
+          
+          <div class="publication">
+            <strong>UMA: A Family of Universal Models for Atoms.</strong><br>
+            <em>NeurIPS 2024.</em><br>
+            <a href="https://ai.meta.com/research/publications/uma-a-family-of-universal-models-for-atoms/" target="_blank">paper</a> |
+            <a href="https://github.com/FAIR-Chem/fairchem" target="_blank">code</a> |
+            <a href="https://huggingface.co/facebook/UMA" target="_blank">checkpoint</a>
+          </div>
+          
+          <div class="publication">
+            <strong>A Generative Model for Inorganic Materials Design.</strong><br>
+            <em>Nature 2025.</em><br>
+            <a href="https://www.nature.com/articles/s41586-025-08628-5" target="_blank">paper</a> |
+            <a href="https://github.com/microsoft/mattergen" target="_blank">code</a>
+          </div>
+
+          <div class="publication">
+            <strong>A Recipe for Charge Density Prediction.</strong><br>
+            <em>NeurIPS 2024.</em><br>
+            <a href="https://arxiv.org/abs/2405.19276" target="_blank">paper</a> |
+            <a href="https://github.com/kyonofx/scdp" target="_blank">code</a>
+          </div>
+
+          <div class="publication">
+            <strong>MOFDiff: Coarse-grained Diffusion for Metal-Organic Framework Design.</strong><br>
+            <em>ICLR 2024.</em><br>
+            <a href="https://arxiv.org/abs/2310.10732" target="_blank">paper</a> |
+            <a href="https://github.com/microsoft/MOFDiff" target="_blank">code</a>
+          </div>
+
+          <div class="publication">
+            <strong>Crystal Diffusion Variational Autoencoder for Periodic Material Generation.</strong><br>
+            <em>ICLR 2022.</em><br>
+            <a href="https://arxiv.org/abs/2110.06197" target="_blank">paper</a> |
+            <a href="https://github.com/txie-93/cdvae" target="_blank">code</a>
+          </div>
+
+          <div class="publication">
+            <strong>Learning Task Informed Abstractions.</strong><br>
+            <em>ICML 2021.</em><br>
+            <a href="https://arxiv.org/abs/2106.15612" target="_blank">paper</a> |
+            <a href="https://github.com/kyonofx/tia" target="_blank">code</a>
+          </div>
+        </div>
+        
+        <p class="more-publications">
+          For a complete list, see my <a href="https://scholar.google.com/citations?user=Cb-ZgHEAAAAJ&hl=en" target="_blank">Google Scholar</a> page.
+        </p>
+      </section>
+
       <section class="page__content" itemprop="text">
-        {% if page.toc %}
-          <aside class="sidebar__right {% if page.toc_sticky %}sticky{% endif %}">
-            <nav class="toc">
-              <header><h4 class="nav__title"><i class="fas fa-{{ page.toc_icon | default: 'file-alt' }}"></i> {{ page.toc_label | default: site.data.ui-text[site.locale].toc_label | default: "On this page" }}</h4></header>
-              {% include toc.html sanitize=true html=content h_min=1 h_max=6 class="toc__menu" skip_no_ids=true %}
-            </nav>
-          </aside>
-        {% endif %}
         {{ content }}
         {% if page.link %}<div><a href="{{ page.link }}" class="btn btn--primary">{{ site.data.ui-text[site.locale].ext_link_label | default: "Direct Link" }}</a></div>{% endif %}
       </section>
 
-      <footer class="page__meta">
-        {% if site.data.ui-text[site.locale].meta_label %}
-          <h4 class="page__meta-title">{{ site.data.ui-text[site.locale].meta_label }}</h4>
-        {% endif %}
-        {% include page__taxonomy.html %}
-        {% include page__date.html %}
-      </footer>
-
-      {% if page.share %}{% include social-share.html %}{% endif %}
-
-      {% include post_pagination.html %}
     </div>
 
     {% if jekyll.environment == 'production' and site.comments.provider and page.comments %}
@@ -89,28 +156,4 @@ layout: default_project
     {% endif %}
   </article>
 
-  {% comment %}<!-- only show related on a post page when `related: true` -->{% endcomment %}
-  {% if page.id and page.related and site.related_posts.size > 0 %}
-    <div class="page__related">
-      <h4 class="page__related-title">{{ site.data.ui-text[site.locale].related_label | default: "You May Also Enjoy" }}</h4>
-      <div class="grid__wrapper">
-        {% for post in site.related_posts limit:4 %}
-          {% include archive-single.html type="grid" %}
-        {% endfor %}
-      </div>
-    </div>
-  {% comment %}<!-- otherwise show recent posts if no related when `related: true` -->{% endcomment %}
-  {% elsif page.id and page.related %}
-    <div class="page__related">
-      <h4 class="page__related-title">{{ site.data.ui-text[site.locale].related_label | default: "You May Also Enjoy" }}</h4>
-      <div class="grid__wrapper">
-        {% for post in site.posts limit:4 %}
-          {% if post.id == page.id %}
-            {% continue %}
-          {% endif %}
-          {% include archive-single.html type="grid" %}
-        {% endfor %}
-      </div>
-    </div>
-  {% endif %}
 </div>
