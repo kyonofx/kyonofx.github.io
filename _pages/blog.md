@@ -31,7 +31,7 @@ permalink: /blog
 <div class="blog-posts">
   <div class="blog-post">
     <div class="post-header">
-      <div class="post-date">April 2022</div>
+      <div class="post-date">Apr 2022</div>
       <h3 class="post-title">
         <a href="/mlcgmd">Simulate Time-integrated Coarse-grained Molecular Dynamics with Multi-scale Graph Networks</a>
       </h3>
@@ -40,7 +40,7 @@ permalink: /blog
 
   <div class="blog-post">
     <div class="post-header">
-      <div class="post-date">June 2021</div>
+      <div class="post-date">Jun 2021</div>
       <h3 class="post-title">
         <a href="/tia">Learning Task Informed Abstractions</a>
       </h3>
