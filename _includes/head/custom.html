@@ -2,6 +2,290 @@
 
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons/css/academicons.min.css">
 
+<!-- IBM Plex Mono Font -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@100;200;300;400;500;600;700&display=swap" rel="stylesheet">
+
+<!-- Full width content without sidebars -->
+<style>
+.page__inner-wrap {
+  max-width: 800px !important;
+  margin: 0 auto !important;
+  padding: 1em 2em;
+}
+
+.page__content {
+  max-width: none;
+  margin: 0;
+  padding: 0;
+}
+
+.archive {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 1em 2em;
+}
+
+#main {
+  clear: both;
+  margin: 0 auto;
+  padding: 0;
+  max-width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+@media (max-width: 768px) {
+  .page__content,
+  .archive {
+    padding: 1em;
+  }
+}
+
+/* Author info styling */
+.author-info {
+  margin-bottom: 3em;
+  padding: 0 0 2em 0;
+  border-bottom: 1px solid #e5e5e5;
+}
+
+.author-details h3 {
+  margin: 0 0 1em 0;
+  font-size: 1.2em;
+  color: #333;
+}
+
+.author-links {
+  display: flex;
+  gap: 1.5em;
+  flex-wrap: wrap;
+}
+
+.author-links a {
+  text-decoration: none;
+  color: #555;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5em;
+  padding: 0.5em 0;
+  border-bottom: 2px solid transparent;
+  transition: all 0.2s ease;
+}
+
+.author-links a:hover {
+  color: #333;
+  border-bottom-color: #333;
+}
+
+.author-links i {
+  font-size: 1.1em;
+}
+
+.author-bio {
+  margin-top: 1.5em;
+  text-align: left;
+}
+
+.author-bio p {
+  margin: 0;
+  color: #555;
+  line-height: 1.5;
+  font-size: 0.95em;
+}
+
+.author-bio a {
+  color: #0066cc;
+  text-decoration: none;
+  border-bottom: 1px solid transparent;
+  transition: all 0.2s ease;
+}
+
+.author-bio a:hover {
+  color: #004499;
+  border-bottom-color: #004499;
+}
+
+@media (max-width: 768px) {
+  .author-links {
+    gap: 1em;
+    justify-content: center;
+  }
+  
+  .author-details {
+    text-align: center;
+  }
+  
+  .author-bio {
+    text-align: center;
+  }
+}
+
+/* Publications section styling */
+.publications-section {
+  margin-top: 2em;
+  padding: 2em 0;
+  border-top: 1px solid #e5e5e5;
+}
+
+.publications-section h3 {
+  margin: 0 0 1.5em 0;
+  font-size: 1.2em;
+  color: #333;
+}
+
+.publication-list {
+  margin-bottom: 1.5em;
+}
+
+.publication {
+  margin-bottom: 2em;
+  line-height: 1.6;
+}
+
+.publication strong {
+  color: #333;
+  font-weight: 600;
+}
+
+.publication em {
+  color: #666;
+  font-style: italic;
+}
+
+.publication a {
+  color: #0066cc;
+  text-decoration: none;
+  border-bottom: 1px solid transparent;
+  transition: all 0.2s ease;
+}
+
+.publication a:hover {
+  color: #004499;
+  border-bottom-color: #004499;
+}
+
+.more-publications {
+  font-style: italic;
+  color: #666;
+  margin-top: 1.5em;
+  padding-top: 1em;
+  border-top: 1px solid #eee;
+}
+
+.more-publications a {
+  color: #0066cc;
+  text-decoration: none;
+  border-bottom: 1px solid transparent;
+  transition: all 0.2s ease;
+}
+
+.more-publications a:hover {
+  color: #004499;
+  border-bottom-color: #004499;
+}
+
+/* Blog header styling */
+.blog-header {
+  margin-bottom: 3em;
+  padding: 2em 0;
+  text-align: center;
+  border-bottom: 1px solid #e5e5e5;
+}
+
+.blog-header h2 {
+  margin: 0 0 0.5em 0;
+  font-size: 1.8em;
+  color: #333;
+}
+
+.blog-header p {
+  margin: 0;
+  color: #666;
+  font-size: 1.1em;
+}
+
+/* Blog posts styling */
+.blog-posts {
+  margin-top: 2em;
+}
+
+.blog-post {
+  margin-bottom: 3em;
+  padding: 2em 0;
+  border-bottom: 1px solid #eee;
+}
+
+.blog-post:last-child {
+  border-bottom: none;
+}
+
+.post-date {
+  color: #666;
+  font-size: 0.9em;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  margin-bottom: 0.5em;
+}
+
+.post-title {
+  margin: 0.5em 0 1em 0;
+  font-size: 1.3em;
+  line-height: 1.3;
+}
+
+.post-title a {
+  color: #333;
+  text-decoration: none;
+  border-bottom: 2px solid transparent;
+  transition: all 0.2s ease;
+}
+
+.post-title a:hover {
+  color: #0066cc;
+  border-bottom-color: #0066cc;
+}
+
+.post-meta {
+  margin-bottom: 1em;
+  color: #555;
+  font-size: 0.95em;
+  line-height: 1.4;
+}
+
+.post-meta strong {
+  color: #333;
+}
+
+.post-meta em {
+  color: #0066cc;
+  font-weight: 600;
+}
+
+.post-excerpt {
+  margin-bottom: 1.2em;
+  color: #666;
+  line-height: 1.6;
+  font-size: 0.95em;
+}
+
+.post-links {
+  font-size: 0.9em;
+}
+
+.post-links a {
+  color: #0066cc;
+  text-decoration: none;
+  border-bottom: 1px solid transparent;
+  transition: all 0.2s ease;
+}
+
+.post-links a:hover {
+  color: #004499;
+  border-bottom-color: #004499;
+}
+</style>
+
 <!-- insert favicons. use https://realfavicongenerator.net/ -->
 
 <!-- end custom head snippets -->

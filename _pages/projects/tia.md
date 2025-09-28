@@ -1,5 +1,5 @@
 ---
-layout: single 
+layout: project_clean
 permalink: /tia
 # author_profile: true
 # sidebar:
