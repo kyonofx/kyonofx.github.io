@@ -56,37 +56,16 @@ gallery:
 <h1 align="center">
 Learning Task Informed Abstractions
 </h1>
-<p font-weight:bold align="center">
-<strong>Xiang Fu*, Ge Yang*, Pulkit Agrawal, Tommi Jaakkola <br><br>
-ICML 2021</strong> <br>
-<a href="http://proceedings.mlr.press/v139/fu21b.html">[paper]</a>
-<a href="https://github.com/kyonofx/tia/">[code]</a>
-<a href="/assets/projects/tia/fu2021learning.bib">[bibtex]</a>
-</p>
+<div class="post-date-header">June 2021</div>
 
-<h4 align="center">
-Video 
-</h4>
 
-<div id="presentation-embed-38959190" class="slp my-auto"></div>
-<script src='https://slideslive.com/embed_presentation.js'></script>
-<script>
-    embed = new SlidesLiveEmbed('presentation-embed-38959190', {
-        presentationId: '38959190',
-        autoPlay: false, // change to true to autoplay the embedded presentation
-        verticalEnabled: true,
-        allowHiddenControlsWhenPaused: true,
-        hideTitle: true
-    });
-</script>
-
-<h4 align="center">
+<h4>
 Abstract 
 </h4>
 
 Current model-based reinforcement learning methods struggle when operating from complex visual scenes due to their inability to prioritize task-relevant features. To mitigate this problem, we propose learning **Task Informed Abstractions** (TIA) that explicitly separates reward-correlated visual features from distractors. For learning TIA, we introduce the formalism of Task Informed MDP (TiMDP) that is realized by training two models that learn visual features via cooperative reconstruction, but one model is adversarially dissociated from the reward signal. Empirical evaluation shows that TIA leads to significant performance gains over state-of-the-art methods on many visual control tasks where natural and unconstrained visual distractions pose a formidable challenge. 
 
-<h4 align="center">
+<h4>
 Qualitative Results 
 </h4>
 

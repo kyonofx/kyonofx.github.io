@@ -21,8 +21,8 @@ layout: default
       <div class="author-details">
         <h3>{{ site.author.name }}</h3>
         <div class="author-links">
-          <a href="mailto:dainves1@gmail.com" title="Email">
-            <i class="fas fa-envelope"></i> Email
+          <a href="/blog" title="Blog">
+            <i class="fas fa-feather-alt"></i> Blog
           </a>
           <a href="https://scholar.google.com/citations?user=Cb-ZgHEAAAAJ&hl=en&oi=ao" title="Google Scholar" target="_blank">
             <i class="ai ai-google-scholar"></i> Scholar
@@ -33,12 +33,15 @@ layout: default
           <a href="https://twitter.com/xiangfu_ml" title="Twitter" target="_blank">
             <i class="fab fa-twitter"></i> Twitter
           </a>
-          <a href="/blog" title="Blog">
-            <i class="fas fa-feather-alt"></i> Blog
+          <a href="mailto:dainves1@gmail.com" title="Email">
+            <i class="fas fa-envelope"></i> Email
           </a>
         </div>
         <div class="author-bio">
-          <p>I work on AI + Atoms. Previously, I was on the <a href="https://fair-chem.github.io/" target="_blank">FAIR Chemistry</a> team at Meta. I completed my PhD at MIT CSAIL, advised by <a href="https://people.csail.mit.edu/tommi/tommi.html" target="_blank">Tommi Jaakkola</a>.</p>
+          <p>Previously at Meta FAIR. 
+            I completed my PhD at MIT CSAIL, advised by <a
+              href="https://people.csail.mit.edu/tommi/tommi.html" target="_blank">Tommi Jaakkola</a> with additional mentorship from <a
+              href="https://people.csail.mit.edu/pulkitag/" target="_blank">Pulkit Agrawal</a>.</p>
         </div>
       </div>
     </section>
@@ -47,54 +50,50 @@ layout: default
     <section class="publications-section">
       <h3>Selected Publications</h3>
       <div class="publication-list">
-        <div class="publication">
-          <strong>UMA: A Family of Universal Models for Atoms.</strong><br>
-          Brandon M. Wood*, Misko Dzamba*, Xiang Fu*, Meng Gao*, et al.<br>
-          <em>Preprint, 2025.</em><br>
-          <a href="https://ai.meta.com/research/publications/uma-a-family-of-universal-models-for-atoms/" target="_blank">paper</a> |
-          <a href="https://github.com/FAIR-Chem/fairchem" target="_blank">code</a> |
-          <a href="https://huggingface.co/facebook/UMA" target="_blank">checkpoint</a>
-        </div>
         
-        <div class="publication">
-          <strong>A Generative Model for Inorganic Materials Design.</strong><br>
-          Claudio Zeni*, Robert Pinsler*, Daniel Zügner*, Andrew Fowler*, et al.<br>
-          <em>Nature, 2025.</em><br>
-          <a href="https://www.nature.com/articles/s41586-025-08628-5" target="_blank">paper</a> |
-          <a href="https://github.com/microsoft/mattergen" target="_blank">code</a>
-        </div>
+          <div class="publication">
+            <strong>UMA: A Family of Universal Models for Atoms.</strong><br>
+            <em>NeurIPS, 2025.</em><br>
+            <a href="https://ai.meta.com/research/publications/uma-a-family-of-universal-models-for-atoms/" target="_blank">paper</a> |
+            <a href="https://github.com/FAIR-Chem/fairchem" target="_blank">code</a> |
+            <a href="https://huggingface.co/facebook/UMA" target="_blank">checkpoint</a>
+          </div>
+        
+         <div class="publication">
+           <strong>Learning Smooth and Expressive Interatomic Potentials for Physical Property Prediction.</strong><br>
+           <em>ICML, 2025.</em><br>
+           <a href="https://arxiv.org/abs/2502.12147" target="_blank">paper</a> |
+           <a href="https://github.com/FAIR-Chem/fairchem" target="_blank">code</a> |
+           <a href="https://huggingface.co/facebook/OMAT24" target="_blank">checkpoint</a>
+         </div>
 
-        <div class="publication">
-          <strong>A Recipe for Charge Density Prediction.</strong><br>
-          Xiang Fu, Andrew Rosen, Kyle Bystrom, et al.<br>
-          <em>Neural Information Processing Systems (NeurIPS), 2024.</em><br>
-          <a href="https://arxiv.org/abs/2405.19276" target="_blank">paper</a> |
-          <a href="https://github.com/kyonofx/scdp" target="_blank">code</a>
-        </div>
+          <div class="publication">
+            <strong>A Generative Model for Inorganic Materials Design.</strong><br>
+            <em>Nature, 2025.</em><br>
+            <a href="https://www.nature.com/articles/s41586-025-08628-5" target="_blank">paper</a> |
+            <a href="https://github.com/microsoft/mattergen" target="_blank">code</a>
+          </div>
 
-        <div class="publication">
-          <strong>MOFDiff: Coarse-grained Diffusion for Metal-Organic Framework Design.</strong><br>
-          Xiang Fu, Tian Xie, Andrew Rosen, Tommi Jaakkola, Jake Smith.<br>
-          <em>International Conference on Learning Representations (ICLR), 2024.</em><br>
-          <a href="https://arxiv.org/abs/2310.10732" target="_blank">paper</a> |
-          <a href="https://github.com/microsoft/MOFDiff" target="_blank">code</a>
-        </div>
+          <div class="publication">
+            <strong>A Recipe for Charge Density Prediction.</strong><br>
+            <em>NeurIPS, 2024.</em><br>
+            <a href="https://arxiv.org/abs/2405.19276" target="_blank">paper</a> |
+            <a href="https://github.com/kyonofx/scdp" target="_blank">code</a>
+          </div>
 
-        <div class="publication">
-          <strong>Crystal Diffusion Variational Autoencoder for Periodic Material Generation.</strong><br>
-          Tian Xie*, Xiang Fu*, Octavian Ganea*, Regina Barzilay, Tommi Jaakkola.<br>
-          <em>International Conference on Learning Representations (ICLR), 2022.</em><br>
-          <a href="https://arxiv.org/abs/2110.06197" target="_blank">paper</a> |
-          <a href="https://github.com/txie-93/cdvae" target="_blank">code</a>
-        </div>
+          <div class="publication">
+            <strong>Crystal Diffusion Variational Autoencoder for Periodic Material Generation.</strong><br>
+            <em>ICLR, 2022.</em><br>
+            <a href="https://arxiv.org/abs/2110.06197" target="_blank">paper</a> |
+            <a href="https://github.com/txie-93/cdvae" target="_blank">code</a>
+          </div>
 
-        <div class="publication">
-          <strong>Learning Task Informed Abstractions.</strong><br>
-          Xiang Fu*, Ge Yang*, Pulkit Agrawal, Tommi Jaakkola.<br>
-          <em>International Conference on Machine Learning (ICML), 2021.</em><br>
-          <a href="https://arxiv.org/abs/2106.15612" target="_blank">paper</a> |
-          <a href="https://github.com/kyonofx/tia" target="_blank">code</a>
-        </div>
+          <div class="publication">
+            <strong>Learning Task Informed Abstractions.</strong><br>
+            <em>ICML, 2021.</em><br>
+            <a href="https://arxiv.org/abs/2106.15612" target="_blank">paper</a> |
+            <a href="https://github.com/kyonofx/tia" target="_blank">code</a>
+          </div>
       </div>
       
       <p class="more-publications">

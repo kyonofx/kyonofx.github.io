@@ -7,12 +7,58 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@100;200;300;400;500;600;700&display=swap" rel="stylesheet">
 
+<!-- Shippori Mincho B1 Font for entire website -->
+<link href="https://fonts.googleapis.com/css2?family=Shippori+Mincho+B1:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+
 <!-- Full width content without sidebars -->
 <style>
+/* Global Shippori Mincho B1 font for entire website */
+body, html, * {
+  font-family: "Shippori Mincho B1", Georgia, "Times New Roman", serif !important;
+}
+
+/* Medium weight for body text */
+body, p, div, span {
+  font-weight: 600;
+}
+
+/* Keep headers bold */
+h1, h2, h3, h4, h5, h6 {
+  font-weight: 700 !important;
+}
+
+/* Keep strong elements bold */
+strong, b {
+  font-weight: 700 !important;
+}
+
+Background color
+body, html {
+  background-color: #FEF9F4 !important;
+}
+
+/* Preserve icon fonts */
+.fas, .far, .fab, .fal, .fad, .ai, 
+[class^="fa-"], [class*=" fa-"],
+[class^="ai-"], [class*=" ai-"],
+i[class^="fa"], i[class*=" fa"],
+i[class^="ai"], i[class*=" ai"] {
+  font-family: "Font Awesome 5 Free", "Font Awesome 5 Brands", "academicons" !important;
+  font-weight: 900 !important;
+}
+
+.page {
+  float: none !important;
+  width: 100% !important;
+  padding-right: 0 !important;
+}
+
 .page__inner-wrap {
   max-width: 800px !important;
   margin: 0 auto !important;
-  padding: 1em 2em;
+  padding: 1em 2em !important;
+  float: none !important;
+  width: auto !important;
 }
 
 .page__content {
@@ -38,22 +84,74 @@
 
 @media (max-width: 768px) {
   .page__content,
-  .archive {
+  .archive,
+  .page__inner-wrap {
     padding: 1em;
   }
 }
 
 /* Author info styling */
 .author-info {
-  margin-bottom: 3em;
-  padding: 0 0 2em 0;
-  border-bottom: 1px solid #e5e5e5;
+  margin-top: 2em;
+  margin-bottom: 1em;
+  padding: 0;
+}
+
+/* Home button in top left corner */
+.home-button-corner {
+  position: fixed;
+  top: 1em;
+  left: 1em;
+  text-decoration: none;
+  color: #555;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5em;
+  padding: 0.5em;
+  border-bottom: 2px solid transparent;
+  transition: all 0.2s ease;
+  font-size: 0.9em;
+  z-index: 100;
+  background-color: rgba(254, 249, 244, 0.8);
+  border-radius: 4px;
+}
+
+.home-button-corner:hover {
+  color: #333;
+  border-bottom-color: #333;
+  background-color: rgba(254, 249, 244, 0.95);
+}
+
+/* Blog button in top right corner */
+.blog-button-corner {
+  position: fixed;
+  top: 1em;
+  right: 1em;
+  text-decoration: none;
+  color: #555;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5em;
+  padding: 0.5em;
+  border-bottom: 2px solid transparent;
+  transition: all 0.2s ease;
+  font-size: 0.9em;
+  z-index: 100;
+  background-color: rgba(254, 249, 244, 0.8);
+  border-radius: 4px;
+}
+
+.blog-button-corner:hover {
+  color: #333;
+  border-bottom-color: #333;
+  background-color: rgba(254, 249, 244, 0.95);
 }
 
 .author-details h3 {
   margin: 0 0 1em 0;
-  font-size: 1.2em;
+  font-size: 2em;
   color: #333;
+  font-weight: 700;
 }
 
 .author-links {
@@ -123,8 +221,8 @@
 
 /* Publications section styling */
 .publications-section {
-  margin-top: 2em;
-  padding: 2em 0;
+  margin-top: 1em;
+  padding: 1em 0;
 }
 
 .publications-section h3 {
@@ -184,53 +282,43 @@
   border-bottom-color: #004499;
 }
 
-/* Blog header styling */
-.blog-header {
-  margin-bottom: 3em;
-  padding: 2em 0;
-  text-align: center;
-  border-bottom: 1px solid #e5e5e5;
-}
-
-.blog-header h2 {
-  margin: 0 0 0.5em 0;
-  font-size: 1.8em;
-  color: #333;
-}
-
-.blog-header p {
-  margin: 0;
-  color: #666;
-  font-size: 1.1em;
-}
 
 /* Blog posts styling */
 .blog-posts {
   margin-top: 2em;
+  max-width: 1000px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .blog-post {
-  margin-bottom: 3em;
-  padding: 2em 0;
-  border-bottom: 1px solid #eee;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 1.5em;
+  padding: 0;
 }
 
-.blog-post:last-child {
-  border-bottom: none;
+.post-header {
+  display: flex;
+  align-items: baseline;
+  gap: 1em;
+  margin-bottom: 0.5em;
 }
 
 .post-date {
   color: #666;
-  font-size: 0.9em;
+  font-size: 0.8em;
   text-transform: uppercase;
   letter-spacing: 0.5px;
-  margin-bottom: 0.5em;
+  flex-shrink: 0;
+  min-width: 80px;
 }
 
 .post-title {
-  margin: 0.5em 0 1em 0;
-  font-size: 1.3em;
+  margin: 0;
+  font-size: 1.1em;
   line-height: 1.3;
+  flex: 1;
 }
 
 .post-title a {
@@ -245,44 +333,23 @@
   border-bottom-color: #0066cc;
 }
 
-.post-meta {
-  margin-bottom: 1em;
-  color: #555;
-  font-size: 0.95em;
-  line-height: 1.4;
-}
-
-.post-meta strong {
-  color: #333;
-}
-
-.post-meta em {
-  color: #0066cc;
-  font-weight: 600;
-}
-
-.post-excerpt {
-  margin-bottom: 1.2em;
+/* Date header for individual blog posts */
+.post-date-header {
+  text-align: center;
   color: #666;
-  line-height: 1.6;
-  font-size: 0.95em;
-}
-
-.post-links {
   font-size: 0.9em;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  margin-bottom: 2em;
+  margin-top: 0.5em;
 }
 
-.post-links a {
-  color: #0066cc;
-  text-decoration: none;
-  border-bottom: 1px solid transparent;
-  transition: all 0.2s ease;
+/* Blog post title styling */
+.page__inner-wrap h1 {
+  font-size: 1.8em !important;
+  margin-bottom: 0.5em !important;
 }
 
-.post-links a:hover {
-  color: #004499;
-  border-bottom-color: #004499;
-}
 </style>
 
 <!-- insert favicons. use https://realfavicongenerator.net/ -->

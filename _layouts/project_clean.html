@@ -2,6 +2,14 @@
 layout: default
 ---
 
+<a href="/" title="Home" class="home-button-corner">
+  <i class="fas fa-home"></i> Home
+</a>
+
+<a href="/blog" title="Blog" class="blog-button-corner">
+  <i class="fas fa-feather-alt"></i> Blog
+</a>
+
 {% if page.header.overlay_color or page.header.overlay_image or page.header.image %}
   {% include page__hero.html %}
 {% elsif page.header.video.id and page.header.video.provider %}
@@ -14,7 +22,7 @@ layout: default
   {% endunless %}
 {% endif %}
 
-<div id="main" role="main">
+<div id="main" role="main" style="margin-top: 3em;">
   <!-- xiang fu: ENABLE MATH -->
   <style TYPE="text/css">
     code.has-jax {
