@@ -12,13 +12,13 @@ permalink: /blog
       <a href="/" title="Home">
         <i class="fas fa-home"></i> Home
       </a>
-      <a href="https://scholar.google.com/citations?user=Cb-ZgHEAAAAJ&hl=en&oi=ao" title="Google Scholar" target="_blank">
+      <a href="https://scholar.google.com/citations?user=Cb-ZgHEAAAAJ&hl=en&oi=ao" title="Google Scholar">
         <i class="ai ai-google-scholar"></i> Scholar
       </a>
-      <a href="https://github.com/kyonofx" title="GitHub" target="_blank">
+      <a href="https://github.com/kyonofx" title="GitHub">
         <i class="fab fa-github"></i> GitHub
       </a>
-      <a href="https://twitter.com/xiangfu_ml" title="Twitter" target="_blank">
+      <a href="https://twitter.com/xiangfu_ml" title="Twitter">
         <i class="fab fa-twitter"></i> Twitter
       </a>
       <a href="mailto:dainves1@gmail.com" title="Email">
