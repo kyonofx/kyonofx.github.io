@@ -480,6 +480,42 @@ figure.fifth > img {
   }
 }
 
+/* Fix paragraph and header spacing in blog posts */
+.page__content p {
+  margin: 0 0 0.8em !important;
+}
+
+.page__content p + p {
+  margin-top: 0 !important;
+}
+
+/* Reduce excessive spacing before headers */
+.page__content h1,
+.page__content h2,
+.page__content h3,
+.page__content h4,
+.page__content h5,
+.page__content h6 {
+  margin-top: 1.2em !important;
+  margin-bottom: 0.7em !important;
+}
+
+/* First header after content should have less top margin */
+.page__content > h1:first-child,
+.page__content > h2:first-child,
+.page__content > h3:first-child,
+.page__content > h4:first-child,
+.page__content > h5:first-child,
+.page__content > h6:first-child {
+  margin-top: 0 !important;
+}
+
+/* Add more bottom margin to blog post content */
+.page__content {
+  margin-bottom: 3em !important;
+  padding-bottom: 2em !important;
+}
+
 </style>
 
 <!-- insert favicons. use https://realfavicongenerator.net/ -->

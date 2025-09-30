@@ -47,7 +47,7 @@ Molecular dynamics (MD) simulation is the workhorse of various scientific domain
 
 #### Why ML simulator?
 
-Molecular dynamics is often extremely complex. In graphics we can already simulate very realistic-looking water in very fast speed, but simulating realistic water in the MD sense is very difficult -- not to mention more complex systems. For complex systems such as the polymers and batteries studied here, ab-initio MD based on quantum mechanics are simply computationally infeasible. People have designed amazing classical force fields to simulate such systems, but even with classical force fields some simulations (e.g., protein folding) are still too expensive. 
+Molecular dynamics is often extremely complex. In graphics we can already simulate very realistic-looking water in very fast speed, but simulating realistic water in the MD sense is very difficult -- not to mention more complex systems. For complex systems such as the polymers and batteries studied here, ab-initio MD based on quantum mechanics are simply computationally infeasible. People have designed amazing classical force fields to simulate such systems, but even with classical force fields some simulations (e.g., protein folding) are still too expensive.
 
 ML force fields (FFs) have achieved significant progress in recent years. They can learn from ab-initio MD data and be orders of magnitude faster, without compromising accuracy.  Huge potential is in ML methods to transform scientific computing!
 

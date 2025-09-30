@@ -31,6 +31,15 @@ permalink: /blog
 <div class="blog-posts">
   <div class="blog-post">
     <div class="post-header">
+      <div class="post-date">Sep 2025</div>
+      <h3 class="post-title">
+        <a href="/science">An Age of AI Enlightenment</a>
+      </h3>
+    </div>
+  </div>
+
+  <div class="blog-post">
+    <div class="post-header">
       <div class="post-date">Apr 2022</div>
       <h3 class="post-title">
         <a href="/mlcgmd">Simulate Time-integrated Coarse-grained Molecular Dynamics with Multi-scale Graph Networks</a>
