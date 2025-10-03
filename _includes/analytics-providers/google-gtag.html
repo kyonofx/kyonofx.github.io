@@ -1,3 +1,9 @@
 <!-- Google Analytics Global Site Tag (gtag.js) -->
-<!-- This file was created to resolve Jekyll build errors -->
-<!-- Add your Google Analytics tracking code here if needed -->
+<script async src="https://www.googletagmanager.com/gtag/js?id={{ site.analytics.google.tracking_id }}"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', '{{ site.analytics.google.tracking_id }}'{% if site.analytics.google.anonymize_ip %}, { 'anonymize_ip': {{ site.analytics.google.anonymize_ip }} }{% endif %});
+</script>
